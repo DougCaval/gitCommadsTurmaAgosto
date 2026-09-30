@@ -1,12 +1,13 @@
-codigo cliente= 8                                  (number)
-Nome= “Lidia”                                       (string)
-Endereço= “Rua Jarangari”                  (string)
-Número= 53                                          (number)
-Bairro= “Piedade”                                  (string)
-CEP= 54420120                                    (number)
-Cadastro ativo= true                              (boolean)
+cliente= 8;                                 //number
+nome= “Lidia”;                              //string
+endereço= “rua jarangari”                   // string
+numero= 53;                                  //number
+bairro= “Piedade”;                           //string
+cep= 54420120;                              //number
+cadastro= true;                             //boolean
 
-Cliente buscarCliente(codigoCliente=8) {buscarCliente
+
+buscarCliente(8); {buscarCliente
 
 }
 
@@ -14,12 +15,11 @@ codigoCliente=8
 
 
 
-
-Cliente buscarCliente(codigoCliente) {
+ buscarCliente(codigoCliente) {
 
 (codigoCliente = 8)  {
 
-return Cliente (8, Lidia, Rua Jarangari, 53, Piedade, 54420120, true 
+return cliente(8, Lidia, Rua Jarangari, 53, Piedade, 54420120, true 
     
      );
     }
